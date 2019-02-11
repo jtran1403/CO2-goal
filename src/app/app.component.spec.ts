@@ -13,15 +13,15 @@ describe('AppComponent', () => {
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   }));
-  it(`should have as title 'CO2-in-Europe'`, async(() => {
+  it(`should have as title 'CO2-goal'`, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('CO2-in-Europe');
+    expect(app.title).toEqual('CO2-goal');
   }));
   it('should render title in a h1 tag', async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to CO2-in-Europe!');
+    expect(compiled.querySelector('h1').textContent).toContain('Welcome to CO2-goal!');
   }));
 });

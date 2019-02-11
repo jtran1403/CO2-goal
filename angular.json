@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "CO2-in-Europe": {
+    "CO2-goal": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/CO2-in-Europe",
+            "outputPath": "dist/CO2-goal",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -50,18 +50,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "CO2-in-Europe:build"
+            "browserTarget": "CO2-goal:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "CO2-in-Europe:build:production"
+              "browserTarget": "CO2-goal:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "CO2-in-Europe:build"
+            "browserTarget": "CO2-goal:build"
           }
         },
         "test": {
@@ -95,7 +95,7 @@
         }
       }
     },
-    "CO2-in-Europe-e2e": {
+    "CO2-goal-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "targets": {
@@ -103,11 +103,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "CO2-in-Europe:serve"
+            "devServerTarget": "CO2-goal:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "CO2-in-Europe:serve:production"
+              "devServerTarget": "CO2-goal:serve:production"
             }
           }
         },
@@ -123,5 +123,5 @@
       }
     }
   },
-  "defaultProject": "CO2-in-Europe"
+  "defaultProject": "CO2-goal"
 }
