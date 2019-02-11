@@ -1,6 +1,12 @@
-# CO2InEurope
+# CO2Goal
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
+The goals of this project is to :
+ - discover Angular
+ - develop features linked to CO2 emissions in Europe
+
+This project will be using as data mocks from the European Commission website [Eurostat](https://ec.europa.eu/eurostat/fr/data/database).
+
+It was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
 
 ## Development server
 
